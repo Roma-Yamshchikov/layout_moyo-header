@@ -2,6 +2,9 @@
 
 html {
   font-family: Roboto, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 
   --blue: #00acdc;
 }
@@ -12,9 +15,7 @@ body {
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 0 50px;
 }
 
 .logo {
@@ -30,6 +31,7 @@ body {
 .nav {
   display: flex;
   justify-content: center;
+  margin-left: auto;
 }
 
 .nav__list {
